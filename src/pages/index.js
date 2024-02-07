@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import { Heading, Flex, Image } from "@aws-amplify/ui-react";
+import { Heading, Flex, Image, Link } from "@aws-amplify/ui-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +21,7 @@ export default function Home() {
           height={400}
           alt='Virtual Image'
         />
+        <Link href="/app">Go To My App</Link>
       </Flex>
 
     </>
